@@ -33,7 +33,8 @@
   .title
     display inline-block
     vertical-align top
-    font-size 16px
+    margin-top 10px
+    font-size 20px
   .mime
     position absolute
     top 0

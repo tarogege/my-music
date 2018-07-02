@@ -2,7 +2,9 @@
   <div id="app">
     <myheader></myheader>
     <tab></tab>
-    <router-view/>
+    <keep-alive>
+      <router-view></router-view>
+    </keep-alive>
   </div>
 </template>
 
@@ -19,4 +21,6 @@ export default {
 </script>
 
 <style lang="stylus" rel="stylesheet/stylus">
+  .app
+    background-color black
 </style>
